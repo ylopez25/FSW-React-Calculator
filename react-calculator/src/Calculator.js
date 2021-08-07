@@ -6,6 +6,9 @@ export default class Cal extends Component {
     this.props.select(e.target.name);
   };
   render() {
+    // These buttons would be better as a component.
+    // Even better would be to make an array of your `name` values and map over them!
+    // Working on that would also greatly improve your React skills. Try it!
     return (
       <div className="button">
         <button className="pink" name="AC" onClick={this.select}>

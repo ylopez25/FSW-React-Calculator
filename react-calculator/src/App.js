@@ -25,6 +25,8 @@ export default class App extends Component {
         result: this.state.result + buttonN,
       });
   };
+  // It's a really good idea to put an empty line after your functions.
+  // It would make this section a lot easier for you to work on!
   posneg = () => {
     this.setState({
       result: parseInt(this.state.result) * -1,
